@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lwip-test1", "lwip-test1.vcxproj", "{E6C5FA7A-F5CD-443A-BE40-D3AD32CA6ADE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9AEA3F15-54AE-4322-9D8B-01BF2ADBE57A} = {9AEA3F15-54AE-4322-9D8B-01BF2ADBE57A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lwip", "lwip\lwip.vcxproj", "{9AEA3F15-54AE-4322-9D8B-01BF2ADBE57A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6C5FA7A-F5CD-443A-BE40-D3AD32CA6ADE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E6C5FA7A-F5CD-443A-BE40-D3AD32CA6ADE}.Debug|Win32.Build.0 = Debug|Win32
+		{E6C5FA7A-F5CD-443A-BE40-D3AD32CA6ADE}.Release|Win32.ActiveCfg = Release|Win32
+		{E6C5FA7A-F5CD-443A-BE40-D3AD32CA6ADE}.Release|Win32.Build.0 = Release|Win32
+		{9AEA3F15-54AE-4322-9D8B-01BF2ADBE57A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9AEA3F15-54AE-4322-9D8B-01BF2ADBE57A}.Debug|Win32.Build.0 = Debug|Win32
+		{9AEA3F15-54AE-4322-9D8B-01BF2ADBE57A}.Release|Win32.ActiveCfg = Release|Win32
+		{9AEA3F15-54AE-4322-9D8B-01BF2ADBE57A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
