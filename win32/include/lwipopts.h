@@ -38,12 +38,12 @@
 
 #define LWIP_IGMP                  1
 #define LWIP_ICMP                  1
-#define LWIP_SNMP                  1
+#define LWIP_SNMP                  0
 
-#define LWIP_DNS                   1
+#define LWIP_DNS                   0
 
-#define LWIP_HAVE_LOOPIF           1
-#define LWIP_NETIF_LOOPBACK        1
+#define LWIP_HAVE_LOOPIF           0
+#define LWIP_NETIF_LOOPBACK        0
 #define LWIP_LOOPBACK_MAX_PBUFS    10
 
 #define TCP_LISTEN_BACKLOG         0
@@ -52,13 +52,20 @@
 #define LWIP_SO_RCVTIMEO           1
 #define LWIP_SO_RCVBUF             1
 
-#define LWIP_TCPIP_CORE_LOCKING    0
+//#define LWIP_TCPIP_CORE_LOCKING    0
 
 #define LWIP_NETIF_LINK_CALLBACK   1
 #define LWIP_NETIF_STATUS_CALLBACK 1
 
 // jk
 //#define LWIP_DEBUG 1
+
+#define CHECKSUM_CHECK_IP         0
+#define CHECKSUM_CHECK_UDP        0
+#define CHECKSUM_CHECK_TCP        0
+#define LWIP_TCPIP_CORE_LOCKING 1
+#define LWIP_TCPIP_CORE_LOCKING_INPUT 1
+
 
 #ifdef LWIP_DEBUG
 
@@ -284,11 +291,6 @@ a lot of data that needs to be copied, this should be set high. */
 #define MD5_SUPPORT             1      /* Set > 0 for MD5 (see also CHAP) */
 
 #endif /* PPP_SUPPORT */
-
-// jk
-#define CHECKSUM_CHECK_IP         0
-#define CHECKSUM_CHECK_UDP        0
-#define CHECKSUM_CHECK_TCP        0
 
 
 #endif /* __LWIPOPTS_H__ */
