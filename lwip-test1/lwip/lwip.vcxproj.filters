@@ -28,25 +28,22 @@
     <Filter Include="源文件\netif">
       <UniqueIdentifier>{79b6a532-942c-4395-af4e-c39ebfc1a2ce}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\include">
-      <UniqueIdentifier>{e239d994-4976-4d98-be74-7628347cd107}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\include\ipv4">
+    <Filter Include="头文件\ipv4">
       <UniqueIdentifier>{794000f9-a17e-4ea9-8fdb-71d21b2bbc4d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\include\ipv4\lwip">
+    <Filter Include="头文件\ipv4\lwip">
       <UniqueIdentifier>{c5c0e9ce-4832-4fd1-8c47-6e7d5fd9ed0e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\include\lwip">
+    <Filter Include="头文件\lwip">
       <UniqueIdentifier>{5fa0c2a6-49d8-42b3-8a6c-5dc5a94cdc7b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\include\netif">
+    <Filter Include="头文件\netif">
       <UniqueIdentifier>{50937689-69a0-44b8-adc0-45c111f897a4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\include\posix">
+    <Filter Include="头文件\posix">
       <UniqueIdentifier>{208490c2-d9a6-4930-892b-59a90c2d5fcb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\include\posix\sys">
+    <Filter Include="头文件\posix\sys">
       <UniqueIdentifier>{48d6e0a9-b22c-4b54-b4ec-714c9b3c3868}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -61,139 +58,139 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\ipv4\lwip\inet_chksum.h">
-      <Filter>源文件\include\ipv4\lwip</Filter>
+      <Filter>头文件\ipv4\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\ipv4\lwip\ip.h">
-      <Filter>源文件\include\ipv4\lwip</Filter>
+      <Filter>头文件\ipv4\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\ipv4\lwip\ip_addr.h">
-      <Filter>源文件\include\ipv4\lwip</Filter>
+      <Filter>头文件\ipv4\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\ipv4\lwip\ip_frag.h">
-      <Filter>源文件\include\ipv4\lwip</Filter>
+      <Filter>头文件\ipv4\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\ipv4\lwip\autoip.h">
-      <Filter>源文件\include\ipv4\lwip</Filter>
+      <Filter>头文件\ipv4\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\ipv4\lwip\icmp.h">
-      <Filter>源文件\include\ipv4\lwip</Filter>
+      <Filter>头文件\ipv4\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\ipv4\lwip\igmp.h">
-      <Filter>源文件\include\ipv4\lwip</Filter>
+      <Filter>头文件\ipv4\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\ipv4\lwip\inet.h">
-      <Filter>源文件\include\ipv4\lwip</Filter>
+      <Filter>头文件\ipv4\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\init.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\mem.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\memp.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\memp_std.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\netbuf.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\netdb.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\netif.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\netifapi.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\opt.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\pbuf.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\raw.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\sio.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\snmp.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\snmp_asn1.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\snmp_msg.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\snmp_structs.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\sockets.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\stats.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\sys.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\tcp.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\tcp_impl.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\tcpip.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\timers.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\udp.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\api.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\api_msg.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\arch.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\debug.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\def.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\dhcp.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\dns.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\lwip\err.h">
-      <Filter>源文件\include\lwip</Filter>
+      <Filter>头文件\lwip</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\netif\ppp_oe.h">
-      <Filter>源文件\include\netif</Filter>
+      <Filter>头文件\netif</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\netif\slipif.h">
-      <Filter>源文件\include\netif</Filter>
+      <Filter>头文件\netif</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\netif\etharp.h">
-      <Filter>源文件\include\netif</Filter>
+      <Filter>头文件\netif</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\posix\netdb.h">
-      <Filter>源文件\include\posix</Filter>
+      <Filter>头文件\posix</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\include\posix\sys\socket.h">
-      <Filter>源文件\include\posix\sys</Filter>
+      <Filter>头文件\posix\sys</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
